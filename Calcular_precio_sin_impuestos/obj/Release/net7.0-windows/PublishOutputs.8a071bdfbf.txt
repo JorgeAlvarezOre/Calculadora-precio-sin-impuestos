@@ -1,0 +1,5 @@
+C:\Users\jalvarez\source\repos\Calcular_precio_sin_impuestos\Calcular_precio_sin_impuestos\bin\Release\net7.0-windows\publish\Calcular_precio_sin_impuestos.exe
+C:\Users\jalvarez\source\repos\Calcular_precio_sin_impuestos\Calcular_precio_sin_impuestos\bin\Release\net7.0-windows\publish\Calcular_precio_sin_impuestos.dll
+C:\Users\jalvarez\source\repos\Calcular_precio_sin_impuestos\Calcular_precio_sin_impuestos\bin\Release\net7.0-windows\publish\Calcular_precio_sin_impuestos.deps.json
+C:\Users\jalvarez\source\repos\Calcular_precio_sin_impuestos\Calcular_precio_sin_impuestos\bin\Release\net7.0-windows\publish\Calcular_precio_sin_impuestos.runtimeconfig.json
+C:\Users\jalvarez\source\repos\Calcular_precio_sin_impuestos\Calcular_precio_sin_impuestos\bin\Release\net7.0-windows\publish\Calcular_precio_sin_impuestos.pdb

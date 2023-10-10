@@ -1,0 +1,33 @@
+﻿<Window x:Class="Calcular_precio_sin_impuestos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calcular_precio_sin_impuestos"
+        mc:Ignorable="d"
+        Title="Calculadora de precios sin impuestos de Jorge" Height="220" Width="320" MinWidth="307" MinHeight="200" Deactivated="Window_Deactivated" FocusManager.FocusedElement="{Binding ElementName=TextBox1}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="85"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="S/ " HorizontalAlignment="Left" VerticalAlignment="Center" Panel.ZIndex="1" Margin="20,0,0,0"/>
+        <TextBox x:Name="TextBox1" Text="10" PreviewTextInput="TextBox1_PreviewTextInput" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextAlignment="Center" Margin="20,0,10,0" />
+        <Button Grid.Column="1" Content="Calcular" VerticalAlignment="Center" Width="65" Click="Button_Click"/>
+
+        <Label Grid.Row="1" Grid.ColumnSpan="2" x:Name="Label1" Content="S/ 8.47"  HorizontalAlignment="Center" VerticalAlignment="Center" />
+
+        <StackPanel Grid.Row="2" Orientation="Vertical" VerticalAlignment="Center">
+            <CheckBox x:Name="CheckBox1" Content="Pegar resultado al portapapeles"  Margin="10,10,10,10" IsChecked="True"/>
+            <CheckBox x:Name="CheckBox2" Content="Ventana siempre visible" Margin="10,10,10,10" IsChecked="True"/>
+        </StackPanel>
+        <Button Grid.Column="1" Grid.Row="2" Content="Acerca de..." HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click_1"/>
+    </Grid>
+</Window>

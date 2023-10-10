@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Calcular_precio_sin_impuestos/1.0.0": {
+        "runtime": {
+          "Calcular_precio_sin_impuestos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Calcular_precio_sin_impuestos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PackageIcon>1486564177-finance-finance-calculator_81497.png</PackageIcon>
+    <ApplicationIcon>Files\1486564177-finance-finance-calculator_81497.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Files\1486564177-finance-finance-calculator_81497.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Files\1486564177-finance-finance-calculator_81497.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
